@@ -4,6 +4,6 @@ local M = require("treesitter_inspect")
 M.setup = function() require("treesitter_inspect.keymaps").setup() end
 
 -- Optional: Auto-setup if user wants
-require("treesitter_inspect.keymaps").setup()
+M.setup()
 
 return M
