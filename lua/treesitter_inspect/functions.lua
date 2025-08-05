@@ -1,7 +1,6 @@
 -- lua/treesitter_inspect.lua
 local M = {}
 
-print("HELELELSL")
 local function get_current_node() return require("nvim-treesitter.ts_utils").get_node_at_cursor() end
 
 -- Core inspection function (takes a node)
